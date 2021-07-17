@@ -3,7 +3,7 @@ import pickle
 import openpyxl
 import random
 
-token="933904988:AAGk0B-nEy1PnkA3PSJTxubnPAmc43zwyoY"
+token="15588458:AAGk0B-nEy1PnkA3PSJTxubnPAmc43zwyoY"
 bot = telebot.TeleBot(token)
 def crypt(mem):
     with open('members.txt', 'wb') as out:
